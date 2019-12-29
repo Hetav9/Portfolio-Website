@@ -634,7 +634,7 @@ footer {
     padding: 50px 15px;
     border-bottom: 1px solid $border;
     text-align: center;
-
+    height: auto;
     h2 {
         color: $heading;
         margin-bottom: 50px;
@@ -644,6 +644,7 @@ footer {
 .project {
     position: relative;
     max-width: 900px;
+    height: auto;
     margin: 0 auto 30px auto;
     overflow: hidden;
     background: #fff;
@@ -652,6 +653,7 @@ footer {
 
 .project-image {
     float: left;
+    height: auto;
 }
 
 .project-info {
@@ -660,6 +662,7 @@ footer {
     transform: translateY(-50%);
     margin-left: 300px;
     padding: 15px;
+    height: auto;
 
     h3 {
         font-size: 1.5em;
@@ -672,6 +675,7 @@ footer {
         color: $text;
         margin: 0 0 15px 0;
         font-size: 0.9em;
+        height: auto;
     }
 }
 
@@ -681,6 +685,7 @@ footer {
         margin: 0;
         padding: 30px 15px;
         transform: none;
+        height: auto;
     }
 }
 
